@@ -10112,7 +10112,18 @@ No artists with labels found to put in legend.  Note that artists whose label st
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="VI-3--Difference-Test"><strong>VI-3- Difference Test</strong><a class="anchor-link" href="#VI-3--Difference-Test">¶</a></h2>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -10122,129 +10133,19 @@ No artists with labels found to put in legend.  Note that artists whose label st
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">differences</span> <span class="o">=</span> <span class="n">filtered_df_results_train</span> <span class="o">-</span> <span class="n">filtered_df_results</span>
 <span class="n">differences</span><span class="o">=</span><span class="n">differences</span><span class="o">.</span><span class="n">transpose</span><span class="p">()</span>
-<span class="n">differences</span>
 </pre></div>
 </div>
 </div>
 </div>
 </div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
 </div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div>
-<style scoped="">
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-<thead>
-<tr style="text-align: right;">
-<th></th>
-<th>lgb</th>
-<th>rfc</th>
-<th>gbc</th>
-<th>etc</th>
-<th>knc</th>
-<th>mlpc</th>
-<th>dtc</th>
-<th>svm</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>Accuracy</th>
-<td>0.029797</td>
-<td>0.026890</td>
-<td>0.013081</td>
-<td>0.026890</td>
-<td>0.004360</td>
-<td>0.011628</td>
-<td>0.023983</td>
-<td>0.025436</td>
-</tr>
-<tr>
-<th>AUC</th>
-<td>0.009641</td>
-<td>0.011390</td>
-<td>0.008606</td>
-<td>0.022544</td>
-<td>0.008315</td>
-<td>0.007792</td>
-<td>0.033461</td>
-<td>-0.005787</td>
-</tr>
-<tr>
-<th>Recall</th>
-<td>0.023854</td>
-<td>0.018828</td>
-<td>0.016310</td>
-<td>0.022594</td>
-<td>0.015037</td>
-<td>0.013791</td>
-<td>0.017569</td>
-<td>0.012544</td>
-</tr>
-<tr>
-<th>Precision</th>
-<td>0.027120</td>
-<td>0.026900</td>
-<td>0.006427</td>
-<td>0.023571</td>
-<td>-0.006926</td>
-<td>0.006368</td>
-<td>0.023374</td>
-<td>0.030101</td>
-</tr>
-<tr>
-<th>F1</th>
-<td>0.025509</td>
-<td>0.022929</td>
-<td>0.011319</td>
-<td>0.023088</td>
-<td>0.003987</td>
-<td>0.010047</td>
-<td>0.020507</td>
-<td>0.021504</td>
-</tr>
-<tr>
-<th>Kappa</th>
-<td>0.061318</td>
-<td>0.055419</td>
-<td>0.026814</td>
-<td>0.055275</td>
-<td>0.008750</td>
-<td>0.023848</td>
-<td>0.049376</td>
-<td>0.052593</td>
-</tr>
-<tr>
-<th>MCC</th>
-<td>0.061259</td>
-<td>0.055244</td>
-<td>0.026952</td>
-<td>0.055263</td>
-<td>0.008940</td>
-<td>0.023938</td>
-<td>0.049280</td>
-<td>0.052087</td>
-</tr>
-</tbody>
-</table>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h4 id="Students-and-Wilxcon">Students and Wilxcon<a class="anchor-link" href="#Students-and-Wilxcon">¶</a></h4>
 </div>
 </div>
 </div>
@@ -10321,19 +10222,152 @@ No artists with labels found to put in legend.  Note that artists whose label st
 <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Cy_predréation d'un nouveau dictionnaire avec uniquement les modèles à conserver</span>
-<span class="n">filtered_models</span> <span class="o">=</span> <span class="p">{</span><span class="n">name</span><span class="p">:</span> <span class="n">model</span> <span class="k">for</span> <span class="n">name</span><span class="p">,</span> <span class="n">model</span> <span class="ow">in</span> <span class="n">models</span><span class="o">.</span><span class="n">items</span><span class="p">()</span> <span class="k">if</span> <span class="n">name</span> <span class="ow">in</span> <span class="p">[</span><span class="s1">'lgb'</span><span class="p">,</span> <span class="s1">'rfc'</span><span class="p">,</span> <span class="s1">'gbc'</span><span class="p">,</span> <span class="s1">'etc'</span><span class="p">,</span> <span class="s1">'knc'</span><span class="p">,</span> <span class="s1">'mlpc'</span><span class="p">,</span> <span class="s1">'dtc'</span><span class="p">,</span><span class="s1">'svm'</span><span class="p">]}</span>
-
-<span class="c1"># Affichage du dictionnaire filtré</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">filtered_models</span><span class="p">)</span>
-
-
-<span class="c1"># Liste des index à conserver</span>
-<span class="n">indexes_to_keep</span> <span class="o">=</span> <span class="p">[</span><span class="s1">'lgb'</span><span class="p">,</span> <span class="s1">'rfc'</span><span class="p">,</span> <span class="s1">'gbc'</span><span class="p">,</span> <span class="s1">'etc'</span><span class="p">,</span> <span class="s1">'knc'</span><span class="p">,</span> <span class="s1">'mlpc'</span><span class="p">,</span> <span class="s1">'dtc'</span><span class="p">,</span> <span class="s1">'svm'</span><span class="p">]</span>
-
-<span class="c1"># Filtrer le DataFrame pour ne conserver que les lignes dont les index sont dans indexes_to_keep</span>
-<span class="n">filtered_df_results</span> <span class="o">=</span> <span class="n">df_results</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">df_results</span><span class="o">.</span><span class="n">index</span><span class="o">.</span><span class="n">isin</span><span class="p">(</span><span class="n">indexes_to_keep</span><span class="p">)]</span>
-<span class="n">filtered_df_results_train</span> <span class="o">=</span> <span class="n">df_results</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">df_results</span><span class="o">.</span><span class="n">index</span><span class="o">.</span><span class="n">isin</span><span class="p">(</span><span class="n">indexes_to_keep</span><span class="p">)]</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">predictions</span><span class="p">,</span> <span class="n">predictions_train</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
+<pre>(     lgb  rfc  gbc  etc  adabc  logit  rc  lsvc   gnb  knc  mlpc  dtc  dc  \
+ 0      1    1    1    1      1      1   1      1    1    1     1    1   1   
+ 1      0    0    0    0      0      0   0      0    0    0     0    0   1   
+ 2      1    1    1    1      0      0   0      0    0    1     1    1   1   
+ 3      1    1    1    1      1      1   1      1    1    1     1    1   1   
+ 4      1    1    1    1      1      0   0      0    0    1     1    1   1   
+ ..   ...  ...  ...  ...    ...    ...  ..    ...  ...  ...   ...  ...  ..   
+ 339    0    0    0    0      0      0   0      0    0    0     0    0   1   
+ 340    1    1    1    1      1      0   0      0    1    1     1    1   1   
+ 341    0    0    0    0      0      0   0      0    0    0     0    0   1   
+ 342    1    1    1    1      1      0   0      0    0    1     1    1   1   
+ 343    1    1    1    1      1      1   1      1    1    1     1    1   1   
+ 
+      qda  svm  
+ 0      1    1  
+ 1      0    0  
+ 2      0    1  
+ 3      1    1  
+ 4      1    1  
+ ..   ...  ...  
+ 339    0    0  
+ 340    0    1  
+ 341    0    0  
+ 342    1    1  
+ 343    1    1  
+ 
+ [344 rows x 15 columns],
+       lgb  rfc  gbc  etc  adabc  logit  rc  lsvc   gnb  knc  mlpc  dtc  dc  \
+ 0       0    0    0    0      0      0   0      0    0    0     0    0   1   
+ 1       1    1    1    1      1      1   1      1    1    1     1    1   1   
+ 2       1    1    1    1      1      1   1      1    1    1     1    1   1   
+ 3       1    1    1    1      1      1   1      1    1    1     1    1   1   
+ 4       0    0    0    0      0      0   0      0    0    0     0    0   1   
+ ...   ...  ...  ...  ...    ...    ...  ..    ...  ...  ...   ...  ...  ..   
+ 1371    0    0    0    0      0      0   0      0    0    0     0    0   1   
+ 1372    1    1    1    1      1      1   1      1    1    1     1    1   1   
+ 1373    0    0    0    0      0      0   0      0    0    0     0    0   1   
+ 1374    0    0    0    0      0      0   0      0    0    0     0    0   1   
+ 1375    1    1    1    1      1      1   1      1    1    1     1    1   1   
+ 
+       qda  svm  
+ 0       0    0  
+ 1       1    1  
+ 2       1    1  
+ 3       1    1  
+ 4       0    0  
+ ...   ...  ...  
+ 1371    0    0  
+ 1372    1    1  
+ 1373    0    0  
+ 1374    0    0  
+ 1375    1    1  
+ 
+ [1376 rows x 15 columns])</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Delong-Test">Delong Test<a class="anchor-link" href="#Delong-Test">¶</a></h3>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">rocauc_comparison</span> <span class="kn">import</span> <span class="n">delong_roc_test</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">differences</span><span class="o">.</span><span class="n">columns</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
+<pre>Index(['lgb', 'rfc', 'gbc', 'etc', 'knc', 'mlpc', 'dtc', 'svm'], dtype='object')</pre>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">predictions_1</span><span class="o">=</span><span class="n">predictions</span><span class="p">[</span><span class="n">differences</span><span class="o">.</span><span class="n">columns</span><span class="p">]</span>
+<span class="n">predictions_train_1</span><span class="o">=</span><span class="n">predictions_train</span><span class="p">[</span><span class="n">differences</span><span class="o">.</span><span class="n">columns</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">help</span><span class="p">(</span><span class="n">delong_roc_test</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -10346,8 +10380,189 @@ No artists with labels found to put in legend.  Note that artists whose label st
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>{'lgb': LGBMClassifier(verbose=-1), 'rfc': RandomForestClassifier(), 'gbc': GradientBoostingClassifier(), 'etc': ExtraTreesClassifier(), 'knc': KNeighborsClassifier(), 'mlpc': MLPClassifier(random_state=1), 'dtc': DecisionTreeClassifier(), 'svm': SVC(gamma=1, probability=True)}
+<pre>Help on function delong_roc_test in module rocauc_comparison.delong:
+
+delong_roc_test(ground_truth, predictions_one, predictions_two)
+    Computes log(p-value) for hypothesis that two ROC AUCs are different.
+
 </pre>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">'Test de delong'</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">var</span> <span class="ow">in</span> <span class="n">predictions_train_1</span><span class="o">.</span><span class="n">columns</span><span class="p">:</span>
+    <span class="n">p_value_log</span><span class="o">=</span><span class="n">delong_roc_test</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span><span class="n">predictions_train_1</span><span class="p">[</span><span class="s1">'knc'</span><span class="p">],</span><span class="n">predictions_train_1</span><span class="p">[</span><span class="n">var</span><span class="p">])</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Logarithme de la p-value de </span><span class="si">{</span><span class="n">var</span><span class="si">}</span><span class="s2"> :"</span><span class="p">,</span> <span class="n">p_value_log</span><span class="p">)</span>
+    <span class="c1"># Convertir la p-value logarithmique en p-value réelle</span>
+    <span class="n">p_value</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span><span class="n">p_value_log</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"P-value de </span><span class="si">{</span><span class="n">var</span><span class="si">}</span><span class="s2"> par rapport à knc:"</span><span class="p">,</span> <span class="n">p_value</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>Test de delong
+Logarithme de la p-value de lgb : [[-0.10296436]]
+P-value de lgb par rapport à knc: [[0.90215913]]
+Logarithme de la p-value de rfc : [[-0.10296436]]
+P-value de rfc par rapport à knc: [[0.90215913]]
+Logarithme de la p-value de gbc : [[-1.08773113]]
+P-value de gbc par rapport à knc: [[0.33698019]]
+Logarithme de la p-value de etc : [[-0.16317415]]
+P-value de etc par rapport à knc: [[0.84944325]]
+Logarithme de la p-value de knc : [[5.55111512e-17]]
+P-value de knc par rapport à knc: [[1.]]
+Logarithme de la p-value de mlpc : [[-0.80617183]]
+P-value de mlpc par rapport à knc: [[0.44656432]]
+Logarithme de la p-value de dtc : [[-0.16317415]]
+P-value de dtc par rapport à knc: [[0.84944325]]
+Logarithme de la p-value de svm : [[-0.33721615]]
+P-value de svm par rapport à knc: [[0.71375455]]
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">'Test de delong'</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">var</span> <span class="ow">in</span> <span class="n">predictions_1</span><span class="o">.</span><span class="n">columns</span><span class="p">:</span>
+    <span class="n">p_value_log</span><span class="o">=</span><span class="n">delong_roc_test</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span><span class="n">predictions_1</span><span class="p">[</span><span class="s1">'knc'</span><span class="p">],</span><span class="n">predictions_1</span><span class="p">[</span><span class="n">var</span><span class="p">])</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Logarithme de la p-value de </span><span class="si">{</span><span class="n">var</span><span class="si">}</span><span class="s2"> :"</span><span class="p">,</span> <span class="n">p_value_log</span><span class="p">)</span>
+    <span class="c1"># Convertir la p-value logarithmique en p-value réelle</span>
+    <span class="n">p_value</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span><span class="n">p_value_log</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"P-value de </span><span class="si">{</span><span class="n">var</span><span class="si">}</span><span class="s2"> par rapport à knc:"</span><span class="p">,</span> <span class="n">p_value</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>Test de delong
+Logarithme de la p-value de lgb : [[-0.98325195]]
+P-value de lgb par rapport à knc: [[0.37409259]]
+Logarithme de la p-value de rfc : [[-0.78619391]]
+P-value de rfc par rapport à knc: [[0.45557546]]
+Logarithme de la p-value de gbc : [[-0.06232711]]
+P-value de gbc par rapport à knc: [[0.9395755]]
+Logarithme de la p-value de etc : [[-0.73582667]]
+P-value de etc par rapport à knc: [[0.47910923]]
+Logarithme de la p-value de knc : [[5.55111512e-17]]
+P-value de knc par rapport à knc: [[1.]]
+Logarithme de la p-value de mlpc : [[-0.06232711]]
+P-value de mlpc par rapport à knc: [[0.9395755]]
+Logarithme de la p-value de dtc : [[-0.54166997]]
+P-value de dtc par rapport à knc: [[0.58177589]]
+Logarithme de la p-value de svm : [[-0.744508]]
+P-value de svm par rapport à knc: [[0.47496793]]
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h1 id="OPTIMISATION"><strong>OPTIMISATION</strong><a class="anchor-link" href="#OPTIMISATION">¶</a></h1>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Initialisation des résultats</span>
+<span class="n">results</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s1">'Accuracy'</span><span class="p">:</span> <span class="p">[],</span>
+    <span class="s1">'AUC'</span><span class="p">:</span> <span class="p">[],</span>
+    <span class="s1">'Recall'</span><span class="p">:</span> <span class="p">[],</span>
+    <span class="s1">'Precision'</span><span class="p">:</span> <span class="p">[],</span>
+    <span class="s1">'F1'</span><span class="p">:</span> <span class="p">[],</span>
+    <span class="s1">'Kappa'</span><span class="p">:</span> <span class="p">[],</span>
+    <span class="s1">'MCC'</span><span class="p">:</span> <span class="p">[],</span>
+<span class="p">}</span>
+<span class="c1"># Grilles de paramètres pour chaque modèle</span>
+<span class="n">param_grids</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s1">'lgb'</span><span class="p">:</span> <span class="p">{</span><span class="s1">'n_estimators'</span><span class="p">:</span> <span class="p">[</span><span class="mi">50</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="mi">200</span><span class="p">],</span> <span class="s1">'learning_rate'</span><span class="p">:</span> <span class="p">[</span><span class="mf">0.01</span><span class="p">,</span> <span class="mf">0.1</span><span class="p">,</span> <span class="mi">1</span><span class="p">],</span><span class="s1">'num_leaves'</span><span class="p">:</span> <span class="p">[</span><span class="mi">31</span><span class="p">,</span> <span class="mi">61</span><span class="p">,</span> <span class="kc">None</span><span class="p">]},</span>
+    <span class="s1">'rfc'</span><span class="p">:</span> <span class="p">{</span><span class="s1">'n_estimators'</span><span class="p">:</span> <span class="p">[</span><span class="mi">50</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="mi">200</span><span class="p">],</span> <span class="s1">'max_depth'</span><span class="p">:</span> <span class="p">[</span><span class="mi">5</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="kc">None</span><span class="p">]},</span>
+    <span class="s1">'gbc'</span><span class="p">:</span> <span class="p">{</span><span class="s1">'n_estimators'</span><span class="p">:</span> <span class="p">[</span><span class="mi">50</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="mi">200</span><span class="p">],</span> <span class="s1">'learning_rate'</span><span class="p">:</span> <span class="p">[</span><span class="mf">0.01</span><span class="p">,</span> <span class="mf">0.1</span><span class="p">,</span> <span class="mi">1</span><span class="p">]},</span>
+    <span class="s1">'etc'</span><span class="p">:</span> <span class="p">{</span><span class="s1">'n_estimators'</span><span class="p">:</span> <span class="p">[</span><span class="mi">50</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="mi">200</span><span class="p">],</span> <span class="s1">'max_depth'</span><span class="p">:</span> <span class="p">[</span><span class="mi">5</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="kc">None</span><span class="p">]},</span>
+    <span class="s1">'knc'</span><span class="p">:</span> <span class="p">{</span><span class="s1">'n_neighbors'</span><span class="p">:</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">9</span><span class="p">]},</span>
+    <span class="s1">'mlpc'</span><span class="p">:</span> <span class="p">{</span><span class="s1">'hidden_layer_sizes'</span><span class="p">:</span> <span class="p">[(</span><span class="mi">10</span><span class="p">,),</span> <span class="p">(</span><span class="mi">50</span><span class="p">,),</span> <span class="p">(</span><span class="mi">100</span><span class="p">,)],</span> <span class="s1">'alpha'</span><span class="p">:</span> <span class="p">[</span><span class="mf">0.01</span><span class="p">,</span> <span class="mf">0.1</span><span class="p">,</span> <span class="mi">1</span><span class="p">]},</span>
+    <span class="s1">'dtc'</span><span class="p">:</span> <span class="p">{</span><span class="s1">'max_depth'</span><span class="p">:</span> <span class="p">[</span><span class="mi">5</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="kc">None</span><span class="p">]},</span>
+    <span class="s1">'svm'</span><span class="p">:</span> <span class="p">{</span><span class="s1">'C'</span><span class="p">:</span> <span class="p">[</span><span class="mf">0.01</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">100</span><span class="p">],</span> <span class="s1">'gamma'</span><span class="p">:</span> <span class="p">[</span><span class="mf">0.01</span><span class="p">,</span> <span class="mf">0.1</span><span class="p">,</span> <span class="mi">1</span><span class="p">]}</span>
+<span class="p">}</span>
+
+<span class="c1"># Dictionnaire pour stocker les meilleurs résultats</span>
+<span class="n">best_models</span> <span class="o">=</span> <span class="p">{}</span>
+
+<span class="c1"># Optimisation des modèles</span>
+<span class="k">for</span> <span class="n">name</span><span class="p">,</span> <span class="n">model</span> <span class="ow">in</span> <span class="n">filtered_models</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>    
+    <span class="c1"># Créez l'objet GridSearchCV avec les paramètres spécifiques au modèle</span>
+    <span class="n">grid_search</span> <span class="o">=</span> <span class="n">GridSearchCV</span><span class="p">(</span><span class="n">estimator</span><span class="o">=</span><span class="n">model</span><span class="p">,</span> <span class="n">param_grid</span><span class="o">=</span><span class="n">param_grids</span><span class="p">[</span><span class="n">name</span><span class="p">],</span> <span class="n">cv</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span> <span class="n">scoring</span><span class="o">=</span><span class="s1">'accuracy'</span><span class="p">)</span>
+    
+    <span class="c1"># Entraînez GridSearchCV sur les données d'entraînement</span>
+    <span class="n">grid_search</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
+    
+    <span class="c1"># Stockez le meilleur modèle et ses paramètres</span>
+    <span class="n">best_models</span><span class="p">[</span><span class="n">name</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="s1">'model'</span><span class="p">:</span> <span class="n">grid_search</span><span class="o">.</span><span class="n">best_estimator_</span><span class="p">,</span>
+        <span class="s1">'params'</span><span class="p">:</span> <span class="n">grid_search</span><span class="o">.</span><span class="n">best_params_</span><span class="p">,</span>
+        <span class="s1">'score'</span><span class="p">:</span> <span class="n">grid_search</span><span class="o">.</span><span class="n">best_score_</span>
+    <span class="p">}</span>
+    
+
+<span class="c1"># Entraînement et évaluation des meilleurs modèles</span>
+<span class="k">for</span> <span class="n">name</span><span class="p">,</span> <span class="n">model_info</span> <span class="ow">in</span> <span class="n">best_models</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+    <span class="n">model</span> <span class="o">=</span> <span class="n">model_info</span><span class="p">[</span><span class="s1">'model'</span><span class="p">]</span>
+    <span class="n">model</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
+    <span class="n">y_pred2</span><span class="o">=</span> <span class="n">model</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
+    <span class="n">y_prob2</span> <span class="o">=</span> <span class="n">model</span><span class="o">.</span><span class="n">predict_proba</span><span class="p">(</span><span class="n">X_test</span><span class="p">)[:,</span> <span class="mi">1</span><span class="p">]</span> <span class="k">if</span> <span class="nb">hasattr</span><span class="p">(</span><span class="n">model</span><span class="p">,</span> <span class="s2">"predict_proba"</span><span class="p">)</span> <span class="k">else</span> <span class="kc">None</span>
+        
+    <span class="n">results</span><span class="p">[</span><span class="s1">'Accuracy'</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">accuracy_score</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">y_pred2</span><span class="p">))</span>
+    <span class="n">results</span><span class="p">[</span><span class="s1">'AUC'</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">roc_auc_score</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">y_prob2</span><span class="p">)</span> <span class="k">if</span> <span class="n">y_prob2</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span> <span class="k">else</span> <span class="n">np</span><span class="o">.</span><span class="n">nan</span><span class="p">)</span>
+    <span class="n">results</span><span class="p">[</span><span class="s1">'Recall'</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">recall_score</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">y_pred2</span><span class="p">))</span>
+    <span class="n">results</span><span class="p">[</span><span class="s1">'Precision'</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">precision_score</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">y_pred2</span><span class="p">))</span>
+    <span class="n">results</span><span class="p">[</span><span class="s1">'F1'</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">f1_score</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">y_pred2</span><span class="p">))</span>
+    <span class="n">results</span><span class="p">[</span><span class="s1">'Kappa'</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">cohen_kappa_score</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">y_pred2</span><span class="p">))</span>
+    <span class="n">results</span><span class="p">[</span><span class="s1">'MCC'</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">matthews_corrcoef</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">y_pred2</span><span class="p">))</span>
+</pre></div>
 </div>
 </div>
 </div>
@@ -11226,7 +11441,7 @@ Si la priorité est donnée à la précision des prédictions positives et à un
 <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">rocauc_comparison</span> <span class="kn">import</span> <span class="n">delong_roc_test</span>
+<div class="highlight hl-ipython3"><pre><span></span> 
 </pre></div>
 </div>
 </div>
